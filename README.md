@@ -18,5 +18,5 @@ You also can do it like this:
 ```JavaScript
 document.getElementById('iframe').src = "EmbedGithubUserWidget.php?user=USERNAME";
 ```
-
+---
 In the next days i will also implement it on [my Web page](https://www.tallerik.de) and wigeds for Organization will come later.

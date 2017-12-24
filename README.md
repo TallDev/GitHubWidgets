@@ -7,7 +7,7 @@ Use:
   3. Embed it like this (You must replace USERNAME to a real name):
 
 ```HTML
-<iframe src="EmbedGithubUserWidget.php?user=USERNAME" id="iframe" width="400" height="600" style="border: none;">
+<iframe src="EmbedGithubUserWidget.php?user=USERNAME&template=TEMPLATEFILE" id="iframe" width="400" height="600" style="border: none;">
 ```
 
 You also can do it like this:
@@ -16,7 +16,7 @@ You also can do it like this:
 <iframe src="" id="iframe" width="400" height="600" style="border: none;">
 ```
 ```JavaScript
-document.getElementById('iframe').src = "EmbedGithubUserWidget.php?user=USERNAME";
+document.getElementById('iframe').src = "EmbedGithubUserWidget.php?user=USERNAME&template=TEMPLATEFILE";
 ```
 ---
-In the next days i will also implement it on [my Web page](https://www.tallerik.de) and wigeds for Organization will come later.
+In the next days i will also implement it on [my Web page](https://www.tallerik.de) and widgeds for Organization will come later.

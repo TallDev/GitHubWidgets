@@ -1,16 +1,19 @@
 <?php
 $userResived = false;
+$templateResived = false;
 
 if($_GET['user']) {
   $user = $_GET['user'];
   $userResived = true;
 }
+if($_GET['template']) {
+  $file = $_GET['template'];
+  $templateResived = true;
+}
 
-$file = "widgetDesign/user.html";
 
 
-
-if($userResived) {
+if($userResived && $templateResived) {
 
 $options = array(
   'http'=>array(
@@ -85,6 +88,6 @@ if (count($reposResponseParse) >= 3) {
 
 echo $template;
 } else {
-  echo 'Please Use GET (EmbedGithubWidget.php?user="USERNAME")';
+  echo 'Please Use GET (EmbedGithubWidget.php?user=USERNAME&template=TemplateFile)';
 }
  ?>

@@ -1,5 +1,5 @@
 # GitHubWidgets
-Easy embed GitHub stuff
+Easily embed GitHub stuff
 
 Use:
   1. Download it (use from the web come soon)
